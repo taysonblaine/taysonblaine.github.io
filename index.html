@@ -133,12 +133,18 @@
                     left: 50%;
                     transform: translate(-50%, -50%);
                   }
-          </style>
+          /*no wrapping*/
+                  div
+                  {
+                    white-space: nowrap;
+                  }
+                  </style>
 
 
 </head>
   <body>
 
+<div>
 <!--embedded youtube video-->
     <iframe id="video" width="420" height="236" src="https://www.youtube.com/embed/amj7A-OkkyU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -150,14 +156,15 @@
         <li><a id="span3" href="https://open.spotify.com/embed/artist/6SvLa3AyHD2envQo7oBxnQ" target="_blank">Spotify</a></li>
       </ul>  
     </nav>
-
+<!--EP message-->
     <div id="ep">Thief! EP Out Now</div>
 
 <!--instagram icon-->
     <a href="https://www.instagram.com/taysonblaine/" target="_blank"><button class="btn" id="i1"><i class="fa fa-instagram" style="font-size: 48px; color: #1081b6"></i></button></a>
 <!--facebook icon-->
     <a href="https://www.facebook.com/taysonblaine.r/" target="_blank"><button class="btn" id="i2"><i class="fa fa-facebook-square" style="font-size: 48px; color: #1081b6"></i></button></a>
-  
+</div>
+       
   </body>
 <footer id="footer">&copysr;TAYSON BLAINE MUSIC 2021</footer>
 </html>
